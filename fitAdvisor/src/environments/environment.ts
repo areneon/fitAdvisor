@@ -3,8 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyDwoyMZHTOMVUuG3LzA61_-weyf31rdp7I",
+    authDomain: "fitadvisor-b454f.firebaseapp.com",
+    databaseURL: "https://fitadvisor-b454f.firebaseio.com",
+    projectId: "fitadvisor-b454f",
+    storageBucket: "fitadvisor-b454f.appspot.com",
+    messagingSenderId: "979225543388"
+  }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

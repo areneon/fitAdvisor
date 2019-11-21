@@ -2,13 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ClientListComponent } from './clients/client-list/client-list.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClientListComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
